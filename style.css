@@ -6,10 +6,10 @@
 }
 body{
     background: #f4f4f4;
-    color: orangered;
+    color: orange;
 }
 header{
-    background: linear-gradient(to right,,darkgreen,green);
+    background: linear-gradient(to right,darkgreen,green);
     color: blue;
     text-align: center;
     padding: 30px;
@@ -54,15 +54,20 @@ images{
     padding: 120px;
     text-align: center;
 }
-.paragraphs{
+.love for uganda{
     padding: 40px;
 }
-.paragraphs h2{
+
+ h2{
     text-align: center;
     color: darkgreen;
     margin-bottom: 20px;
 }
-.paragraphs p{
+p::first-letter{
+     font-size:40px ;
+     color: darkorange;
+}
+.p{
     margin-bottom: 20px;
     line-height: 1.8;
     background: white;
@@ -71,7 +76,7 @@ images{
     box-shadow: 0 0 10px gray;
     transition: 0.5s;
 }
-.paragraphs p: hover{
+.paragraphs p:hover{
     transform: translateY(-10px)
 }
 .table-section{
@@ -115,6 +120,7 @@ form{
     padding: 30px;
     border: 15px;
     box-shadow: 0 0 10px gray;
+
 }
 form label{
     display: block;
@@ -127,6 +133,10 @@ width: 100%;
 padding: 12px;
 border: 1px solid gray;
 border-radius: 8px;
+}
+input:focus{
+    border:3px solid blue;
+    background-color: yellow;
 }
 .gender input{
     width:18px;
@@ -158,6 +168,10 @@ button:hover{
     color:darkgreen;
     margin-bottom: 15px;
 }
+h2::before{
+    content: "\2605";
+    color:gold;
+}
 .about-page p{
     width:100%;
     border-radius:20px;
@@ -173,6 +187,12 @@ footer{
     padding: 20px;
     margin-top:40px;
 }
+footer::after{
+content:"\2665";
+font-size:50px;
+color:red ;
+}
+
 @keyframes slideDown{
     from{
         transform:translateY(-100px);
